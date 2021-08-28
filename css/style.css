@@ -1,0 +1,149 @@
+/* #F8F9FA */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.clear {
+  clear: both;
+}
+/* Header */
+header {
+  background-color: #f8f9fa;
+  font-size: 0;
+  padding: 10px 0;
+}
+
+/* Nesting */
+
+/* inline block inline-block none */
+header h1 {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+}
+
+header .btn-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+  text-align: right;
+}
+
+header .btn-wrapper button {
+  background-color: #0d6efd;
+  color: #fff;
+  padding: 10px 15px;
+  border: 0;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -o-border-radius: 7px;
+  -ms-border-radius: 7px;
+  border-radius: 7px;
+  cursor: pointer;
+  text-transform: capitalize;
+  transition: background 0.5s;
+}
+
+.home {
+  background-image: url("../images/bg-masthead.jpg");
+  height: 600px;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home:after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+}
+
+.home-content {
+  z-index: 2;
+  position: absolute;
+  text-align: center;
+  /*left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+.home-content h2 {
+  font-size: 40px;
+  color: #fff;
+}
+
+header .container button:hover {
+  background-color: #0b5ed7;
+}
+
+header h1 {
+  font-weight: normal;
+}
+
+header h1 a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #333;
+}
+
+/* .parent .child {
+  width: 50%;
+  float: left;
+}
+
+.parent .child1 {
+  background-color: red;
+  padding: 10px;
+}
+
+.parent .child2 {
+  background-color: blue;
+} */
+/* 
+span {
+  width: 200px;
+  background-color: red;
+}
+
+p {
+  width: 250px;
+  background-color: red;
+}
+
+button {
+  width: 200px;
+} */
+
+section button {
+  /* float: left; */
+}
+
+.t {
+  text-align: right;
+  margin-left: auto;
+}
+
+.t p {
+  width: 400px;
+  background: red;
+}
+
+/* margin text-algin */
