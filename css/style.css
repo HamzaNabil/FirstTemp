@@ -267,6 +267,13 @@ font-weight: normal;
     min-height: 20rem;
     background-size: cover;
   }
+
+  .banner::after{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+  }
+
   
   .banner h2 {
     font-size: 2rem;
@@ -285,7 +292,7 @@ font-weight: normal;
   padding: 1.5rem;
   width: 50%;
   border: none;
-  border-radius: 5px;
+  border-radius: 7px;
   }
 
   .banner-input button{
@@ -297,7 +304,11 @@ font-weight: normal;
     font-size: 1.3rem;
     line-height: 1rem;
     font-weight: lighter;
-    border-radius: 5px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -o-border-radius: 7px;
+    -ms-border-radius: 7px;
     }
 .footer{
   background-color: #f8f9fa;
