@@ -149,29 +149,57 @@ main{
   font-weight: normal;
 }
 
-.text-wraper{
-}
-
 .show-case{
   width: 100%;
 }
 
-.show-case-one{
+.show-case-row-one{
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
 }
 
-.show-case img{
+.show-case-row-two{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.show-case-row-three{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+
+.showcase-image-one{
+  background-image: url(/images/iphone.jpeg);
   width: 50%;
+  min-height: 30rem;
+  background-size: cover;
+}
+
+.showcase-image-two{
+  background-image: url(/images/coding.jpeg);
+  width: 50%;
+  min-height: 30rem;
+  background-size: cover;
+}
+
+.showcase-image-three{
+  background-image: url(/images/typing.jpeg);
+  width: 50%;
+  min-height: 30rem;
+  background-size: cover;
 }
 
 .show-case-text{
+  padding: 20px;
   width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
   align-self: center;
 }
+
 .show-case-text h2{
 width: 60%;
 font-size: 2rem;
@@ -203,6 +231,7 @@ font-weight: normal;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding-bottom: 7%;
   }
 
   .individuals{
@@ -230,3 +259,62 @@ font-weight: normal;
     width: 150px;
     border-radius: 50%;
   }
+
+  .banner{
+
+    width: 100%;
+    background-image: url(/images/bg-masthead.jpg);
+    min-height: 20rem;
+    background-size: cover;
+  }
+  
+  .banner h2 {
+    font-size: 2rem;
+    padding: 3rem;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  .banner-input{
+    display: flex;
+    justify-content: center;
+  }
+
+.banner-input input{
+  padding: 1.5rem;
+  width: 50%;
+  border: none;
+  border-radius: 5px;
+  }
+
+  .banner-input button{
+    padding: 1rem 1.5rem;
+    margin-left: 10px;
+    background-color: #0b5ed7;
+    color: #f8f9fa;
+    border: none;
+    font-size: 1.3rem;
+    line-height: 1rem;
+    font-weight: lighter;
+    border-radius: 5px;
+    }
+.footer{
+  background-color: #f8f9fa;
+  min-height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: left;
+  padding: 4rem;
+}
+
+.footer a{
+  padding: 1rem;
+  color: #0b5ed7;
+}
+
+.footer p{
+  padding: 1rem;
+  color: gray;
+}
