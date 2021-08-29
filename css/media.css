@@ -4,7 +4,7 @@
 /* X small 0 => 575px */
 
 /* X Samll Phone */
-@media (max-width: 575px) {
+@media (max-width: 768px) {
   .feature-elements {
     flex-direction: column;
     height: auto;
@@ -23,6 +23,9 @@
     width: 100%;
     min-height: 15rem;
   }
+  .showcase-image-three{
+    background-position: center -90px;
+  }
   .show-case-text,
   .show-case-text h2,
   .show-case-text p {
@@ -34,11 +37,59 @@
   header .btn-wrapper button {
     padding: 5px 10px;
   }
+  .home-content h2 {
+  font-size: 2rem;
+  }
+  .home{
+    height: 300px;
+  }
+  .home-content input, .home-content button{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .home-content button{
+    margin: 0;
+  }
+
+  .home-content div{
+    padding: 0 1.5rem;
+  }
+  .individual-box{
+    margin-bottom: 20px;
+  }
+
+  .banner h2{
+    padding: 2rem;
+  }
+  .banner{
+    min-height: 15rem;
+  }
+  .banner-input input{
+    width: 60%;
+  }
+
+  .footer{
+    padding: 2rem;
+  }
+  .footer-bar{
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer a{
+    padding: 1rem .25rem;
+  }
+  .contact-info{
+    margin-bottom: 10px;
+  }
+.footer p{
+  text-align: center;
+  }
 }
 
-/* Small */
+/* Small
 @media (min-width: 576px) and (max-width: 768px) {
-}
+} */
 
 /* Medium */
 @media (min-width: 769px) and (max-width: 991px) {
