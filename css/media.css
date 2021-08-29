@@ -1,0 +1,49 @@
+/* Large Screen 992px => .... */
+/* Medium 769px => 991px */
+/* Small 576px => 768px */
+/* X small 0 => 575px */
+
+/* X Samll Phone */
+@media (max-width: 575px) {
+  .feature-elements {
+    flex-direction: column;
+    height: auto;
+  }
+  .feature-blocks {
+    margin-bottom: 1rem;
+  }
+  .show-case-row-one,
+  .show-case-row-two,
+  .show-case-row-three {
+    flex-direction: column;
+  }
+  .showcase-image-one,
+  .showcase-image-two,
+  .showcase-image-three {
+    width: 100%;
+    min-height: 15rem;
+  }
+  .show-case-text,
+  .show-case-text h2,
+  .show-case-text p {
+    width: 100%;
+  }
+  header h1 a {
+    font-size: 1.2rem;
+  }
+  header .btn-wrapper button {
+    padding: 5px 10px;
+  }
+}
+
+/* Small */
+@media (min-width: 576px) and (max-width: 768px) {
+}
+
+/* Medium */
+@media (min-width: 769px) and (max-width: 991px) {
+}
+
+/* Large */
+@media (min-width: 992px) {
+}

@@ -90,7 +90,7 @@ header .btn-wrapper button {
   color: #fff;
   font-weight: normal;
 }
-.home-content input{
+.home-content input {
   margin-top: 30px;
   width: 70%;
   padding: 1.5rem;
@@ -98,17 +98,17 @@ header .btn-wrapper button {
   border-radius: 5px;
 }
 
-.home-content button{
+.home-content button {
   font-size: 1rem;
   background-color: #0b5ed7;
   color: white;
   border: none;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   padding: 1.4rem 1.5rem;
   margin-left: 1rem;
   cursor: pointer;
 }
-.home-content button:hover{
+.home-content button:hover {
   background-color: #0b5ed7;
 }
 
@@ -126,13 +126,16 @@ header h1 a {
   color: #333;
 }
 
-main{
+main {
   width: 100%;
 }
 
-.feature-elements{
-  padding: 60px;
+.feature-section {
   background-color: #f8f9fa;
+}
+.feature-elements {
+  padding: 60px 0;
+
   width: 100%;
   height: 400px;
   display: flex;
@@ -143,55 +146,55 @@ main{
   width: 100px;
 }
 
-.feature-header{
-  padding: 1rem;
+.feature-header {
+  margin: 1rem;
   font-size: 2rem;
   font-weight: normal;
 }
 
-.show-case{
+.show-case {
   width: 100%;
 }
 
-.show-case-row-one{
+.show-case-row-one {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row-reverse;
 }
 
-.show-case-row-two{
+.show-case-row-two {
   display: flex;
   flex-wrap: wrap;
 }
 
-.show-case-row-three{
+.show-case-row-three {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row-reverse;
 }
 
-.showcase-image-one{
+.showcase-image-one {
   background-image: url("../images/iphone.jpeg");
   width: 50%;
   min-height: 30rem;
   background-size: cover;
 }
 
-.showcase-image-two{
+.showcase-image-two {
   background-image: url("../images/coding.jpeg");
   width: 50%;
   min-height: 30rem;
   background-size: cover;
 }
 
-.showcase-image-three{
+.showcase-image-three {
   background-image: url("../images/typing.jpeg");
   width: 50%;
   min-height: 30rem;
   background-size: cover;
 }
 
-.show-case-text{
+.show-case-text {
   padding: 20px;
   width: 50%;
   display: flex;
@@ -200,67 +203,67 @@ main{
   align-self: center;
 }
 
-.show-case-text h2{
-width: 60%;
-font-size: 2rem;
-font-weight: normal;
+.show-case-text h2 {
+  width: 60%;
+  font-size: 2rem;
+  font-weight: normal;
 }
 
-.secondary-font{
+.secondary-font {
   margin-top: 20px;
   width: 60%;
   font-weight: lighter;
   line-height: 2rem;
   font-size: 1.2rem;
-  }
+}
 
-  .people{
-    background-color: #f8f9fa;
-    padding-top: 5%;
-    text-align: center;
-  }
+.people {
+  background-color: #f8f9fa;
+  padding-top: 5%;
+  text-align: center;
+}
 
-  .people h2{
-    font-size: 2rem;
-    font-weight: normal;
-    text-align: center;
-  }
+.people h2 {
+  font-size: 2rem;
+  font-weight: normal;
+  text-align: center;
+}
 
-  .individuals-row {
-    margin-top: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding-bottom: 7%;
-  }
+.individuals-row {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 7%;
+}
 
-  .individuals{
-    flex: 0 0 auto;
-    width: 33.33%;
-  }
+.individuals {
+  flex: 0 0 auto;
+  width: 33.33%;
+}
 
-  .individual-box{
-    max-width: 18rem;
-  }
+.individual-box {
+  max-width: 18rem;
+}
 
-  .individual-box h3{
-    margin-top: 20px;
-    font-weight: normal;
-    line-height: 1.2rem;
-  }
+.individual-box h3 {
+  margin-top: 20px;
+  font-weight: normal;
+  line-height: 1.2rem;
+}
 
-  .individual-box p{
-    margin-top: 10px;
-    font-weight: lighter;
-    line-height: 1.2rem;
-  }
+.individual-box p {
+  margin-top: 10px;
+  font-weight: lighter;
+  line-height: 1.2rem;
+}
 
-.individual img{
+.individual img {
   width: 150px;
   border-radius: 50%;
-  }
+}
 
-.banner{
+.banner {
   width: 100%;
   background-image: url("../images/bg-masthead.jpg");
   min-height: 20rem;
@@ -272,22 +275,22 @@ font-weight: normal;
   padding: 3rem;
   color: #fff;
   font-weight: normal;
-   text-align: center;
+  text-align: center;
 }
 
-.banner-input{
-display: flex;
-justify-content: center;
+.banner-input {
+  display: flex;
+  justify-content: center;
 }
 
-.banner-input input{
+.banner-input input {
   padding: 1.5rem;
   width: 50%;
   border: none;
   border-radius: 7px;
 }
 
-.banner-input button{
+.banner-input button {
   padding: 1rem 1.5rem;
   margin-left: 10px;
   background-color: #0b5ed7;
@@ -303,29 +306,28 @@ justify-content: center;
   -ms-border-radius: 7px;
   transition: 0.5s;
   cursor: pointer;
-
 }
 
-.banner-input button:hover{
+.banner-input button:hover {
   background-color: #0d6efd;
   transition: 0.5s;
 }
-.footer{
+.footer {
   background-color: #f8f9fa;
   min-height: 10rem;
   padding: 4rem;
 }
 
-.footer-bar{
+.footer-bar {
   display: flex;
   justify-content: space-between;
 }
-.footer a{
+.footer a {
   padding: 1rem;
   color: #0b5ed7;
 }
 
-.footer p{
+.footer p {
   padding: 1rem;
   color: gray;
 }
