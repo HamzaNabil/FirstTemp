@@ -122,7 +122,7 @@ header h1 {
 
 header h1 a {
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #333;
 }
 
@@ -171,21 +171,21 @@ main{
 }
 
 .showcase-image-one{
-  background-image: url(/images/iphone.jpeg);
+  background-image: url("../images/iphone.jpeg");
   width: 50%;
   min-height: 30rem;
   background-size: cover;
 }
 
 .showcase-image-two{
-  background-image: url(/images/coding.jpeg);
+  background-image: url("../images/coding.jpeg");
   width: 50%;
   min-height: 30rem;
   background-size: cover;
 }
 
 .showcase-image-three{
-  background-image: url(/images/typing.jpeg);
+  background-image: url("../images/typing.jpeg");
   width: 50%;
   min-height: 30rem;
   background-size: cover;
@@ -255,71 +255,71 @@ font-weight: normal;
     line-height: 1.2rem;
   }
 
-  .individual img{
-    width: 150px;
-    border-radius: 50%;
+.individual img{
+  width: 150px;
+  border-radius: 50%;
   }
 
-  .banner{
+.banner{
+  width: 100%;
+  background-image: url("../images/bg-masthead.jpg");
+  min-height: 20rem;
+  background-size: cover;
+}
 
-    width: 100%;
-    background-image: url(/images/bg-masthead.jpg);
-    min-height: 20rem;
-    background-size: cover;
-  }
+.banner h2 {
+  font-size: 2rem;
+  padding: 3rem;
+  color: #fff;
+  font-weight: normal;
+   text-align: center;
+}
 
-  .banner::after{
-    background-color: rgba(0, 0, 0, 0.5);
-    height: 100%;
-    width: 100%;
-  }
-
-  
-  .banner h2 {
-    font-size: 2rem;
-    padding: 3rem;
-    color: #fff;
-    font-weight: normal;
-    text-align: center;
-  }
-
-  .banner-input{
-    display: flex;
-    justify-content: center;
-  }
+.banner-input{
+display: flex;
+justify-content: center;
+}
 
 .banner-input input{
   padding: 1.5rem;
   width: 50%;
   border: none;
   border-radius: 7px;
-  }
+}
 
-  .banner-input button{
-    padding: 1rem 1.5rem;
-    margin-left: 10px;
-    background-color: #0b5ed7;
-    color: #f8f9fa;
-    border: none;
-    font-size: 1.3rem;
-    line-height: 1rem;
-    font-weight: lighter;
-    border-radius: 7px;
-    -webkit-border-radius: 7px;
-    -moz-border-radius: 7px;
-    -o-border-radius: 7px;
-    -ms-border-radius: 7px;
-    }
+.banner-input button{
+  padding: 1rem 1.5rem;
+  margin-left: 10px;
+  background-color: #0b5ed7;
+  color: #f8f9fa;
+  border: none;
+  font-size: 1.3rem;
+  line-height: 1rem;
+  font-weight: lighter;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -o-border-radius: 7px;
+  -ms-border-radius: 7px;
+  transition: 0.5s;
+  cursor: pointer;
+
+}
+
+.banner-input button:hover{
+  background-color: #0d6efd;
+  transition: 0.5s;
+}
 .footer{
   background-color: #f8f9fa;
   min-height: 10rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: left;
   padding: 4rem;
 }
 
+.footer-bar{
+  display: flex;
+  justify-content: space-between;
+}
 .footer a{
   padding: 1rem;
   color: #0b5ed7;
